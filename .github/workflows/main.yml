@@ -67,7 +67,7 @@ jobs:
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
       - name: Setup kubelogin
-        uses: Azure/use-kubelogin@v1.2
+        uses: Azure/use-kubelogin@v1
 
       - name: Azure Kubernetes set context
         uses: Azure/aks-set-context@v3
